@@ -44,8 +44,9 @@ main img{
     width: 100%;
 }
 main h1{
-    text-shadow: rgba(252, 217, 21, 0.877);
-    color: rgb(138, 103, 9);;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px rgba(248, 222, 76, 0.877);
+    color: rgb(116, 88, 13);;
     font-family: 'Duna';
     padding: 15px;
 }
