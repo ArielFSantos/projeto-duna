@@ -15,7 +15,7 @@ body{
 .duna{
     width: 50%;
     max-width: 1000px;
-    min-width: 480px;
+    min-width: 400px;
 }
 header{
     background-image: url(duna-background.jpg);
@@ -49,7 +49,7 @@ main h1{
     text-shadow: rgba(252, 217, 21, 0.877);
     color: rgb(138, 103, 9);;
     font-family: 'Duna';
-    padding: 20px;
+    padding: 15px;
 }
 main p{
     font-family: Arial, Helvetica, sans-serif;
@@ -80,7 +80,7 @@ main p{
 
 .salusa{
     background-image: url('salusa.jpg');
-    background-position: center center;
+    background-position: center top;
     min-height: 400px;
     padding-bottom: 50px;
 }
@@ -88,6 +88,7 @@ footer{
     background-color: black;
     color: rgb(138, 103, 9);
     font-family: 'duna';
+    font-size: 60%;
     text-shadow: 1px 1px 1px rgba(252, 217, 21, 0.877);
     padding: 10px;
 }
