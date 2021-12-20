@@ -1,19 +1,94 @@
 @charset "utf-8";
-body{
-    background-image: url(duna-background.jpg);
+@font-face {
+    font-family: 'Duna';
+    src: url('fontes/Rocketwildness-7BB8R.ttf');
     
+}
+body{
+    
+    margin: 0px;
+    background-image: url(areia.jpg);
+    
+   
 
 }
-main{
-    margin: auto;
-    width: 1400px;
-    margin-top: 40%;
-    background-color: yellow;
+.duna{
+    width: 50%;
+    max-width: 1000px;
+    min-width: 480px;
 }
-main > img{
-    margin: auto;
-    padding: 40px;
+header{
+    background-image: url(duna-background.jpg);
+    padding-bottom: 45%;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    width: 100%;
+}
+header img{
+    
+  
+    padding:  0px ;
+}
+ 
+main{
      
     
-     
+    max-width: 1200px;
+    min-width: 200px;
+    margin: 0px 10px ;
+    margin: auto;
+    
+    
 }
+main img{
+    width: 100%;
+}
+main h1{
+    text-shadow: rgba(252, 217, 21, 0.877);
+    color: rgb(138, 103, 9);;
+    font-family: 'Duna';
+    padding: 20px;
+}
+main p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 20px;
+}
+.planetas {
+    
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.733);
+}
+.planetas h1 {
+    margin: 0px;
+}
+.caladan{
+    
+    min-height: 400px;
+    background-image: url(caladan.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.arrakis{
+    background-image: url(arrakis.jpg);
+    background-position: center bottom;
+    min-height: 400px;
+    
+}
+
+.salusa{
+    background-image: url('salusa.jpg');
+    background-position: center center;
+    min-height: 400px;
+    padding-bottom: 50px;
+}
+footer{
+    background-color: black;
+    color: rgb(138, 103, 9);
+    font-family: 'duna';
+    text-shadow: 1px 1px 1px rgba(252, 217, 21, 0.877);
+    padding: 10px;
+}
+
