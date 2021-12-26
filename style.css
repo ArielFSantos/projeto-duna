@@ -20,6 +20,7 @@ body{
     padding:  0px ;
 }
 header{
+    background-attachment: fixed;
     background-image: url(duna-background.jpg);
     padding-bottom: 45%;
     background-position: top right;
